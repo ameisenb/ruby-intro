@@ -10,6 +10,14 @@
 # then write them out to the screen. Show the total
 # as well.
 
+roll_1 =rand(1..6)
+roll_2 = rand(1..6)
+p "Roll 1 = #{roll_1}"
+p "Roll 2 = #{roll_2}"
+
+p "Total = #{roll_1+ roll_2}"
+
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)

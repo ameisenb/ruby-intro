@@ -30,3 +30,12 @@ puts die2
 # 3. create a variable for the total and write it to the screen
 total = die1 + die2
 puts "The total is: #{total}"
+
+# conditions
+if total == 7 || total == 11
+    p "YOU WIN!!"
+elsif total == 2 || total == 3 || total == 12
+    p "YOU LOSE!!"
+else 
+    p "THE POINT IS #{total}"
+end
